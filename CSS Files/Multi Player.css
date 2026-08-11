@@ -1,0 +1,211 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+.gamepagebody{
+              background: url(../Images/Game\ Page\ Background.png) no-repeat center center/cover;
+              height: 94vh;
+              width: auto;
+              padding: 1%;
+             }
+.gamepageheader{
+                height: 5rem;
+                width: 100%;
+                background: transparent;
+                backdrop-filter: blur(10px);
+                border-radius: 1rem;
+                border: 1px solid #fffafa;
+               }
+.gamepageheaderul{
+                  display: flex;
+                  flex-direction: row;
+                  list-style: none;
+                  gap: 25%;
+                  justify-content: center;
+                  color: #fffafa;
+                  font-size: 2rem;
+                  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+                 }
+.headerbuttons{
+               height: 4.9rem;
+               width: 4.9rem;
+               border-radius: 3rem;
+               font-size: 2rem;
+               font-weight: bolder;
+               color: #fffafa;
+               background-color: chocolate;
+               border: none;
+               box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+               transition: all 0.3s ease-in-out; 
+              }
+.headerbuttons:hover{
+                     background-color: #fffafa;
+                     color: chocolate;
+                     cursor: pointer;
+                    }
+.gameboard{
+           padding-top: 1%;
+           padding-bottom: 1%;
+           margin-left: 37%;
+           width:25rem;
+           height: 63vh;
+           display: flex;
+           flex-wrap: wrap;
+          }
+.gamebutton{
+            height: 8rem;
+            width: 8rem;
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+            background-color: #fffafa;
+            color: chocolate;
+            font-weight: bolder;
+            font-size: 5rem;
+            margin-right: 1%;
+           }
+.gameboard button:hover{
+                        border: 2px solid chocolate;
+                        cursor: pointer;
+                       }
+
+.gamepagefooter{
+                height: 5rem;
+                width: 100%;
+                background: transparent;
+                backdrop-filter: blur(10px);
+                border-radius: 1rem;
+                border: 1px solid #fffafa;
+               }
+.gamepagefooterul{
+                  display: flex;
+                  flex-direction: row;
+                  list-style: none;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 5%;
+                 }
+.scoreboardul{
+              display: flex;
+              flex-direction: row;
+              list-style: none;
+              justify-content: center;
+              gap: 5%;
+             }
+.playernamelabel{
+                 font-size: 2rem;
+                 color: #fffafa;
+                 font-weight: bolder;
+                 text-align: center;
+                 text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+                }
+.scoreboard{
+            height: 4.7rem;
+            width: 10rem;
+            border: none;
+            border-radius: 3rem;
+            font-size: 3rem;
+            font-weight: bolder;
+            color: chocolate;
+            text-align: center;
+           }
+.gamestatus{
+            height: 4.7rem;
+            width: 40rem;
+            border: none;
+            border-radius: 3rem;
+            font-size: 3rem;
+            font-weight: bolder;
+            font-style: italic;
+            color: chocolate;
+            background-color: #fffafa;
+            text-align: center;
+           }
+.newgamebutton{
+               height: 4.9rem;
+               width: 4.9rem;
+               border-radius: 3rem;
+               font-size: 2rem;
+               font-weight: bolder;
+               color: #fffafa;
+               background-color: chocolate;
+               border: none;
+               box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+               transition: all 0.3s ease-in-out;
+              }
+.newgamebutton:hover{
+                     background-color: #fffafa;
+                     color: chocolate;
+                     cursor: pointer;
+                    }
+
+@media (max-width: 880px) {
+.gamepagebody{
+              width: 55vw;
+              height: 100vh;
+             }
+.gamepageheader{
+                width: 96vw;
+               }
+.gamepageheaderul{
+                  gap: 13%;
+                 }
+.gameboard{
+           margin-left: 48%;
+          }
+.gamepagefooter{
+                width: 96vw;
+               }
+.playernamelabel{
+                 font-size: 1.5rem;
+                }
+.scoreboard{
+            height: 3rem;
+            width: 3rem;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+           }
+.gamestatus{
+            height: 3rem;
+            width: 20rem;
+            border: none;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+           }
+                          }
+
+@media (max-width: 480px) {
+.gamepagebody{
+              height: 156vh;
+             }
+.gamepageheader{
+                width: 154vw;
+               }
+.gamepageheaderul{
+                  gap: 10%;
+                  font-size: 1rem;
+                  align-items: center;
+                 }
+.gameboard{
+           margin-left: 30%;
+           margin-top: 70%;
+           margin-bottom: 70%;
+          }
+.gamebutton{
+            margin-bottom: 1%;
+           }
+.gamepagefooter{
+                width: 154vw;
+                height: 40Vh;
+               }
+.gamepagefooterul{
+                  flex-direction: column;
+                 }
+.scoreboardul{
+              margin-bottom: 10%;
+             }
+.gamestatus{
+            margin-bottom: 10%;
+           }
+                          }
