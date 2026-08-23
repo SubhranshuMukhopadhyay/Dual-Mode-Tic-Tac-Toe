@@ -15,4 +15,4 @@ A Project has built on a small game known as 'Tic Tac Toe'. The project has been
 ## Multi Player Page :
 | HTML File | CSS File | TypeScript File | JavaScript Files | Image | 
 | - | - | - | - | - |
-| Multi Player.html | Multi Player.css | Multi Player.ts | Multi Player.js | <img src="" alt="MLBC"> |
+| Multi Player.html | Multi Player.css | Multi Player.ts | Multi Player.js | <img src="https://github.com/SubhranshuMukhopadhyay/Dual-Mode-Tic-Tac-Toe/blob/main/src/Images/Player%20vs%20Player%20Game%20Page%20in%20Dual%20Mode%20Tic%20Tac%20Toe.jpg" alt="MLBC"> |
