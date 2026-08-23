@@ -5,7 +5,7 @@ A Project has built on a small game known as 'Tic Tac Toe'. The project has been
 ## Home Page :
 | HTML File | CSS File | TypeScript File | JavaScript Files | Image |
 | - | - | - | - | - |
-| index.html | Home.css | Home.ts | Home.js | <img src="" alt="MLBC"> |
+| index.html | Home.css | Home.ts | Home.js | <img src="https://github.com/SubhranshuMukhopadhyay/Dual-Mode-Tic-Tac-Toe/blob/main/src/Images/Dual%20Mode%20Tic%20Tac%20Toe%20Home%20Page.jpg" alt="MLBC"> |
 
 ## Single Player Page :
 | HTML File | CSS File | TypeScript File | JavaScript Files | Image | 
