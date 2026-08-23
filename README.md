@@ -1,7 +1,7 @@
 # Dual Mode Tic Tac Toe
 A Project has built on a small game known as 'Tic Tac Toe'. The project has been built b  based on 3 HTMl base files and the other supporting files. For the logic part coding 'TypeScript' and for styling 'Tailwind CSS' has been used.
 
-## Glimps of the Website
+## Glimps of the Project
 ## Home Page :
 | HTML File | TypeScript File | JavaScript Files | Image |
 | - | - | - | - |
