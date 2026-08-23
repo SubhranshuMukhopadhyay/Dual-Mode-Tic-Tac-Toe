@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+ }
+.gamebutton{
+            height: 8rem;
+            width: 8rem;
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+            background-color: #fffafa;
+            color: chocolate;
+            font-weight: bolder;
+            font-size: 5rem;
+            margin-right: 1%;
+           }
+.gamebutton:hover{
+                  border: 2px solid chocolate;
+                  cursor: pointer;
+                 }
+.gamestatus{
+            height: 4.7rem;
+            width: 40rem;
+            border: none;
+            border-radius: 3rem;
+            padding-bottom: 1.5%;
+            font-size: 3rem;
+            font-weight: bolder;
+            font-style: italic;
+            color: chocolate;
+            background-color: #fffafa;
+            text-align: center;
+           }
+.newgamebutton{
+               height: 4.9rem;
+               width: 4.9rem;
+               border-radius: 3rem;
+               font-size: 2rem;
+               font-weight: bolder;
+               color: #fffafa;
+               background-color: chocolate;
+               border: none;
+               box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+               transition: all 0.3s ease-in-out;
+              }
+.newgamebutton:hover{
+                     background-color: #fffafa;
+                     color: chocolate;
+                     cursor: pointer;
+                    }
+
+@media (max-width: 880px) {
+.gamestatus{
+            height: 3rem;
+            width: 20rem;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+           }
+                          }
+
+@media (max-width: 480px) {
+.gamebutton{
+            height: 5rem;
+            width: 5rem;
+            font-size: 3rem;
+           }
+.gamestatus{
+            height: 3rem;
+            width: 16rem;
+            font-size: 1rem;
+            margin-bottom: 2%;
+           }
+.newgamebutton{
+               height: 2.4rem;
+               width: 2.4rem;
+               font-size: 1rem;
+              }
+                          }
