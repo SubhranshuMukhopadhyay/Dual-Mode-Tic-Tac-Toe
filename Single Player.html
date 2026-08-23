@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Player vs Computer Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-[url('Images/Gamepage.png')] bg-cover p-[1%]">
+    <header class="lg:mb-0 md:mb-7 mb-20 md:h-20 h-10 w-full bg-transparent backdrop-blur-[10px] rounded-2xl border border-solid border-[#fffafa]">
+        <ul class="flex flex-row list-none lg:pl-6 md:pl-1 pl-1 lg:gap-[30%] md:gap-[16%] gap-[14%] justift-center">
+            <li><button class="backtohomebutton md:h-[4.9rem] md:w-[4.9rem] h-[2.4rem] w-[2.4rem] rounded-[3rem] md:text-[2rem] text-[1rem] font-extrabold text-[#fffafa] bg-[chocolate] border-none [box-shadow:0_5px_5px_rgba(0,0,0,0.5)] transition-all duration-300 ease-in-out hover:cursor-pointer hover:bg-[#fffafa] hover:text-[chocolate]">
+                    <i class="fa-solid fa-house"></i>
+                </button>
+            </li>
+            <li class="text-[#fffafa] font-bold md:text-[3rem] text-[1rem] font-['Times_New_Roman',serif] [text_shadow:0_3px_3px_rgba(0,0,0,0.5)]">
+                Player vs Computer
+            </li>
+            <li><button class="multiplayermodebutton md:h-[4.9rem] md:w-[4.9rem] h-[2.4rem] w-[2.4rem] rounded-[3rem] md:text-[2rem] text-[1rem] font-extrabold text-[#fffafa] bg-[chocolate] border-none [box-shadow:0_5px_5px_rgba(0,0,0,0.5)] transition-all duration-300 ease-in-out hover:cursor-pointer hover:bg-[#fffafa] hover:text-[chocolate]"><i class="fa-solid fa-users"></i></button></li>
+        </ul>
+    </header>
+    <main>
+        <div class="flex flex-wrap pt-[1%] pb-[1%] lg:ml-[37%] md:ml-[27%] justify-center md:w-100 w-80 md:h-[63vh] h-[45vh]">
+            <button class="gamebutton" id="gamebutton1"></button>
+            <button class="gamebutton" id="gamebutton2"></button>
+            <button class="gamebutton" id="gamebutton3"></button>
+            <button class="gamebutton" id="gamebutton4"></button>
+            <button class="gamebutton" id="gamebutton5"></button>
+            <button class="gamebutton" id="gamebutton6"></button>
+            <button class="gamebutton" id="gamebutton7"></button>
+            <button class="gamebutton" id="gamebutton8"></button>
+            <button class="gamebutton" id="gamebutton9"></button>
+        </div>
+    </main>
+    <footer class="lg:mt-0 md:mt-3 mt-20 md:h-30 h-33 w-full bg-transparent backdrop-blur-[10px] rounded-2xl border border-solid border-[#fffafa]">
+        <ul class="md:flex md:flex-row list-none justify-center items-center text-center lg:gap-[3%] md:gap-[2%] lg:pt-3 md:pt-5">
+            <li>
+                <ul class="flex flex-row list-none justify-center md:gap-[2%] gap-4">
+                   <li class="lg:text-[2rem] md:text-[1.5rem] text-[1rem] text-[#fffafa] font-bold font-['Times_New_Roman',serif] text-center [text_shadow:0_3px_3px_rgba(0,0,0,0.5)]">
+                        Player (X)
+                    </li>
+                   <li><input class="mt-[9%] md:mb-0 mb-1 md:pl-3 md:pb-1 lg:h-[4.7rem] md:h-12 lg:w-40 md:w-20 w-10 border-none rounded-2xl lg:text-[3rem] md:text-[1.5rem] font-extrabold text-[chocolate] text-center bg-[#fffafa]" id="playerxscore" type="number" value="00" readonly></li>
+                   <li class="lg:text-[2rem] md:text-[1.5rem] text-[1rem] text-[#fffafa] font-bold font-['Times_New_Roman',serif] text-center [text_shadow:0_3px_3px_rgba(0,0,0,0.5)]">
+                        Computer (0)
+                   </li>
+                   <li><input class="mt-[9%] md:mb-0 mb-1 md:pl-3 md:pb-1 lg:h-[4.7rem] md:h-12 lg:w-40 md:w-20 w-10 border-none rounded-2xl lg:text-[3rem] md:text-[1.5rem] font-extrabold text-[chocolate] text-center bg-[#fffafa]" id="player0score" type="number" value="00" readonly></li> 
+                </ul>
+            </li>
+            <li><input class="gamestatus" type="text" readonly></li>
+            <li><div><button class="newgamebutton"><i class="fa-solid fa-arrow-rotate-left"></i></button></div></li>
+        </ul>
+    </footer>
+</body>
+<script>var exports = {};</script>
+<script src="./TypeScript Files/JavaScript Files/Single Player.js"></script>
+</html>
